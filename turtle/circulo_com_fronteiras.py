@@ -11,12 +11,9 @@ class Circulo:
 
 
     def mover_circulo(self):
-        x, y = -50, 10
+        x, y = 0, 0  
         para_esquerda = False
         para_baixo = False
-
-        raio = self._desenho.width()
-        print(raio)
        
         while True:
             if x >= 400: 
